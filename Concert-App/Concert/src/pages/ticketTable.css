@@ -1,0 +1,152 @@
+.ticketTable {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -2350px;
+    position: sticky;
+    margin-left: 40px;
+    border: 2px solid rgb(0, 26, 255);
+    background-color: rgb(17, 24, 57);
+    width: 1360px;
+    height: 640px;
+    z-index: 1000;
+    border-radius: 15px;
+    padding: 20px;
+    /* Tablonun z-index değeri, diğer elementlerden önde olacak şekilde ayarlandı */
+
+
+    h1 {
+        font-size: 40px;
+        margin-top: -1px;
+    }
+
+    h2 {
+        font-size: 30px;
+
+    }
+
+
+}
+
+.ticketTable2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -1550px;
+    position: sticky;
+    margin-left: 40px;
+    border: 2px solid rgb(0, 26, 255);
+    background-color: rgb(17, 24, 57);
+    width: 1360px;
+    height: 640px;
+    z-index: 1000;
+    border-radius: 15px;
+    padding: 20px;
+    /* Tablonun z-index değeri, diğer elementlerden önde olacak şekilde ayarlandı */
+
+
+    h1 {
+        font-size: 40px;
+        margin-top: -1px;
+    }
+
+    h2 {
+        font-size: 30px;
+
+    }
+
+
+}
+
+
+
+
+.close-icon {
+    display: flex;
+    font-size: 40px;
+    margin-left: 1330px;
+    margin-top: -485px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.close-icon:hover {
+    transform: scale(1.2);
+}
+
+.blok {
+    margin-right: 40px;
+
+    h4 {
+        font-size: 25px;
+    }
+}
+
+.blok-seçimi {
+    margin-top: -25px;
+    display: flex;
+}
+
+.blokBuyButton {
+    height: 40px;
+    width: 90px;
+    border: none;
+    border-radius: 10em;
+    background: #016DD9;
+    font-size: 17px;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+.blokBuyButton:hover {
+    animation: shake3856 0.3s linear infinite both;
+}
+
+.buyButton {
+    height: 45px;
+    width: 120px;
+    border: none;
+    border-radius: 10em;
+    background: #016DD9;
+    font-size: 17px;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-left: -80px;
+}
+
+.buyButton :hover {
+    animation: shake3856 0.3s linear infinite both;
+}
+
+@keyframes shake3856 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}

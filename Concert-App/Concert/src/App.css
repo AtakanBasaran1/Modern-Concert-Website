@@ -1,0 +1,17 @@
+body {
+    background-image: url("./images/wallpaper.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+    overflow: visible;
+
+
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}

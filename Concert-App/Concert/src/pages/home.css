@@ -1,0 +1,98 @@
+/* CSS */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slogan {
+    margin-top: 20px;
+    margin-bottom: -180px;
+}
+
+.home {
+    position: fixed;
+
+
+    h3 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 205px;
+        margin-left: 50px;
+        font-size: 45px;
+        margin-bottom: -260px;
+        animation: slideInLeft 1s forwards;
+    }
+
+    h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 70px;
+        margin-top: 280px;
+
+    }
+
+    button {
+
+        margin-top: 10px;
+        margin-left: 90px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        font-size: 13px;
+        color: #ffffff;
+        text-shadow: none;
+        background: transparent;
+        cursor: pointer;
+        box-shadow: transparent;
+        border: 1px solid #ffffff;
+        transition: 0.5s ease;
+        user-select: none;
+    }
+
+    #btn:hover,
+    :focus {
+        color: #ffffff;
+        background: #00000019;
+
+        text-shadow: 0 0 5px #fefeff, 0 0 10px #f3f2f4, 0 0 20px #f6f5f7;
+    }
+
+}
+
+.home h1,
+.home h2,
+.home button {
+    opacity: 0;
+    /* Başlangıçta görünmez olsun */
+    animation: slideInLeft 1s ease forwards;
+    /* Animasyonu 1 saniyede oynat, durduğu yerde kal */
+
+}
+
+
+/* CSS */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.müslümTraImg {
+    width: 990px;
+    height: 640px;
+    margin-top: -380px;
+    margin-left: 550px;
+    animation: slideInRight 1s forwards;
+    /* Animasyonu 1 saniyede oynat, durduğu yerde kal */
+}
